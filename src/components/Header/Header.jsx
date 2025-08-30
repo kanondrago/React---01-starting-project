@@ -12,7 +12,7 @@ export function Header() {
     const description = reactDescription[genRandomInt(2)];
   
     return (
-      <div>
+      <>
         <header>
           <img src={reactImg} alt="Stylized atom" />
           <h1>React Essentials</h1>
@@ -21,6 +21,6 @@ export function Header() {
             going to build!
           </p>
         </header>
-      </div>
+      </>
     )
 }
