@@ -43,7 +43,12 @@ function App() {
       <Header></Header>
       <main>
 
-
+        <section id='core-concepts'>
+          <h2>Time to get started!</h2>
+          <ul>
+            {CORE_CONCEPTS.map((item, k) => <CoreConcept key={k} {...item}/>)}
+          </ul>
+        </section>
 
         <section id='examples'>
           <h2>Examples</h2>
